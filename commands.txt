@@ -1,0 +1,2 @@
+# Get ports for all running services
+sudo lsof -i -P | grep -i "listen"
