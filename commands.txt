@@ -1,2 +1,5 @@
 # Get ports for all running services
-sudo lsof -i -P | grep -i "listen"
+`$ sudo lsof -i -P | grep -i "listen"`
+
+# Enable looking at hidden files
+`$ defaults write com.apple.finder AppleShowAllFiles -bool TRUE`
