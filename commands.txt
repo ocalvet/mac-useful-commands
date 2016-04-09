@@ -7,3 +7,5 @@
 # Download a file withour the browser
 `$ curl -O http://appldnld.apple.com/iTunes11/091-6058.20130605.Cw321/iTunes11.0.4.dmg`
 
+# Follow a file
+`$ tail -f /var/log/system.log`
